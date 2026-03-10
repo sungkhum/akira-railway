@@ -19,14 +19,14 @@ A Railway-ready fork of [Akira](https://akira.sachi.dev) — a SaaS starter kit 
 - **Email:** [Resend](https://resend.com) + [React Email](https://react.email)
 - **Runtime:** [Bun](https://bun.sh)
 
-## Getting Started
+## Local Development
 
 ```bash
 # Install dependencies
 bun install
 
 # Set up environment variables
-cp .env.example .env
+cp .env.example .env.local
 
 # Run database migrations
 bunx drizzle-kit push
