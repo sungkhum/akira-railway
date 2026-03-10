@@ -2,7 +2,7 @@
 
 A modern SaaS starter kit built with Next.js, Tailwind CSS, and shadcn/ui. Auth, payments, database, and email — all pre-configured so you can skip the setup and start building.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/XXXXX)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xoqFjS?referralCode=6EnXto&utm_medium=integration&utm_source=template&utm_campaign=generic)
 
 ![Akira](./public/og.png)
 
