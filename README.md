@@ -35,6 +35,8 @@ bunx drizzle-kit push
 bun dev
 ```
 
+To connect to your Railway Postgres locally, copy the public connection string from your Railway project (**Postgres > Variables > DATABASE_PUBLIC_URL**) and set it as `DATABASE_URL` in `.env.local`.
+
 ## Deploy to Railway
 
 1. Click the "Deploy on Railway" button above
