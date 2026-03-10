@@ -4,7 +4,8 @@ import { db } from "@/db";
 import { Resend } from "resend";
 import WelcomeEmail from "@/components/email/email";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+let resend: Resend;
+const getResend = () => (resend ??= new Resend(process.env.RESEND_API_KEY));
 
 export const auth = betterAuth({
   socialProviders: {
@@ -24,7 +25,7 @@ export const auth = betterAuth({
     user: {
       create: {
         after: async (user) => {
-          const { data, error } = await resend.emails.send({
+          const { data, error } = await getResend().emails.send({
             from: "onboarding@resend.dev",
             to: user.email,
             subject: "Welcome!",
