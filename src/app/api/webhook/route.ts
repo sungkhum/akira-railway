@@ -1,5 +1,7 @@
 import { Webhooks } from "@dodopayments/nextjs";
 
+export const dynamic = "force-dynamic";
+
 export const POST = Webhooks({
   webhookKey: process.env.DODO_WEBHOOK_SECRET!,
   onPaymentSucceeded: async (payload) => {
