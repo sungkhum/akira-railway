@@ -1,8 +1,10 @@
-# Akira
+# Akira-Railway
 
-A modern SaaS starter kit built with Next.js, Tailwind CSS, and shadcn/ui. Auth, payments, database, and email — all pre-configured so you can skip the setup and start building.
+A Railway-ready fork of [Akira](https://akira.sachi.dev) — a SaaS starter kit built with Next.js, Tailwind CSS, and shadcn/ui. Auth, payments, database, and email pre-configured so you can skip the setup and start building.
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/xoqFjS?referralCode=6EnXto&utm_medium=integration&utm_source=template&utm_campaign=generic)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/akira-railway?referralCode=6EnXto&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
+*Deploying through this link supports the maintainers of this fork via Railway's referral program.*
 
 ![Akira](./public/og.png)
 
@@ -36,9 +38,8 @@ bun dev
 ## Deploy to Railway
 
 1. Click the "Deploy on Railway" button above
-2. Add a Postgres database to the project
-3. Set the required environment variables (auth secrets, OAuth keys, etc.)
-4. Railway will automatically build with Bun and run migrations on deploy
+2. Set the required environment variables (auth secrets, OAuth keys, etc.)
+3. Railway provisions Postgres, builds with Bun, and runs migrations automatically
 
 ## Project Structure
 
